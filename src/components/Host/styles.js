@@ -24,19 +24,19 @@ const styles = StyleSheet.create({
     flex: 1,
     flexWrap: 'wrap',
     fontWeight: 'bold',
-  },
-  name: {
-    fontSize: 18,
-    marginLeft: 10,
-    flex: 1,
-    flexWrap: 'wrap',
-  },
-  email: {
-    fontSize: 18,
-    marginLeft: 10,
-    flex: 1,
-    flexWrap: 'wrap',
-  },
+},
+name: {
+  fontSize: 18,
+  marginLeft: 10,
+  flex: 1,
+  flexWrap: 'wrap',
+},
+email: {
+  fontSize: 18,
+  marginLeft: 10,
+  flex: 1,
+  flexWrap: 'wrap',
+},
 });
 
 export default styles;

@@ -1,8 +1,12 @@
 import React from 'react';
 import {View, Text, Pressable, SafeAreaView} from 'react-native';
 import styles from './styles';
+import { useNavigation } from '@react-navigation/native';
 
 const HomeScreen = () => {
+
+  const navigation = useNavigation();
+
 
   return (
     <View style={styles.container}>
@@ -26,7 +30,7 @@ const HomeScreen = () => {
       <View style={styles.bottom}>
         <Pressable
           style={styles.button}
-          onPress={() => console.log('Start Scheduling!')}>
+          onPress={() => navigation.navigate('Start Scheduling!')}>
           <Text style={styles.buttonText}>Start Scheduling!</Text>
         </Pressable>
       </View>
